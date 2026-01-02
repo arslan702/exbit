@@ -52,6 +52,9 @@ const About = () => {
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
+                <div className="p-4 text-center">
+                  <p className="font-semibold text-foreground">{member.name}</p>
+                </div>
               </div>
             ))}
           </div>
