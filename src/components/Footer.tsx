@@ -34,7 +34,7 @@ const Footer = () => {
               <img 
                 src={logo} 
                 alt="Exbit Logo" 
-                className="h-8 w-auto"
+                className="h-16 w-auto"
               />
             </Link>
             <p className="text-background/70 text-sm mb-6 max-w-sm">
