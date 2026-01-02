@@ -44,16 +44,16 @@ const About = () => {
             ].map((member, idx) => (
               <div
                 key={idx}
-                className="overflow-hidden rounded-xl border border-border bg-card shadow-sm"
+                className="overflow-hidden rounded-xl border border-border bg-card shadow-sm flex flex-col"
               >
                 <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-full object-cover"
+                  src={member?.image}
+                  alt={member?.name}
+                  className="w-full h-64 object-cover"
                   loading="lazy"
                 />
-                <div className="p-4 text-center">
-                  <p className="font-semibold text-foreground">{member.name}</p>
+                <div className="p-4 text-center bg-card">
+                  <p className="font-semibold text-foreground">{member?.name}</p>
                 </div>
               </div>
             ))}
