@@ -49,7 +49,7 @@ const About = () => {
                 <img
                   src={member?.image}
                   alt={member?.name}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 object-cover object-top"
                   loading="lazy"
                 />
                 <div className="p-4 text-center bg-card">
